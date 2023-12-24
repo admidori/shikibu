@@ -14,6 +14,7 @@ export * from "./charactorcount";
 import { editorText, previewBesideSection, MyCodelensProvider } from "./editor";
 import { activateTokenizer, changeTenseAspect, addRuby } from "./tokenize";
 import { exportpdf, previewpdf } from "./pdf";
+import test from "./shikibu/test"
 
 //リソースとなるhtmlファイル
 //let html: Buffer;
@@ -69,6 +70,9 @@ function emptyPort(callback: any) {
 
 export function activate(context: vscode.ExtensionContext): void {
   //コマンド登録
+  context.subscriptions.push(
+    vscode.commands.registerCommand("Shikibu.test", test)
+  )
   context.subscriptions.push(
     vscode.commands.registerCommand("Novel.compile-draft", compileDocs)
   );

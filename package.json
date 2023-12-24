@@ -77,6 +77,10 @@
         "command": "draftTree.refresh",
         "title": "再表示",
         "icon": "$(refresh)"
+      },
+      {
+        "command": "Shikibu.test",
+        "title": "Shikibu: test"
       }
     ],
     "keybindings": [
