@@ -1,10 +1,10 @@
 {
   "name": "shikibu",
-  "version": "1.9.13",
-  "publisher": "TaiyoFujii",
+  "version": "0.0.1-pre-alpha+1.9.13",
+  "publisher": "Aoi Kondo",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ttrace/vscode-language-japanese-novel.git"
+    "url": "git+https://github.com/admidori/admidori.git"
   },
   "icon": "resource/icon.png",
   "engines": {
@@ -684,11 +684,11 @@
     "webpack-env": "^0.8.0",
     "xhr2": "^0.2.1"
   },
-  "description": "VS Codeの小説執筆を支援する機能拡張です",
+  "description": "A next-generation Japanese novel editor",
   "bugs": {
-    "url": "https://github.com/ttrace/vscode-language-japanese-novel/issues"
+    "url": "https://github.com/admidori/shikibu/issues"
   },
-  "homepage": "https://github.com/ttrace/vscode-language-japanese-novel#readme",
+  "homepage": "https://github.com/admidori/shikibu/",
   "directories": {
     "test": "test"
   },
